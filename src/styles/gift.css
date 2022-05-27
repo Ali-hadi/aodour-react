@@ -1,0 +1,94 @@
+.landing_popup{
+    width: 100%;
+    display: inline-block;
+    padding: 30px;
+    margin-top: 50px;
+    position: relative;
+}
+.ReactModal__Content.ReactModal__Content--after-open.campaign_model{
+    width: 600px;
+    display: inline-block;
+    border:none !important;
+    background: transparent;
+    border-radius: 0px;
+}
+.landing_popup .cross-btn{
+    top:-15px;
+    right: -15px;
+}
+.Offer_card{
+    position: relative;
+}
+.Offer_card .title_nofi{
+    display: inline-block;
+    width: 80%;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 30px;
+    padding: 12px 0px;
+    text-align: center;
+    margin: 0 auto;
+}
+.Offer_card .cross-btn{
+    top: -15px;
+    left: -15px;
+    right: auto;
+    background-color: #fff;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 12px;
+    opacity: 1;
+    padding: 10px;
+    font-size: 12px;
+}
+.ReactModal__Content.ReactModal__Content--after-open.small_campaign_model{
+    width: 600px;
+    display: inline-block;
+    border:none !important;
+    background: transparent;
+    border-radius: 0px;
+}
+.small_campaign_model .landing_popup{
+    width: 70%;
+    padding: 0px;
+}
+.small_campaign_model .cross-btn {
+    top: -15px;
+    right: -15px;
+    background: #e23c52;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 100%;
+    opacity: 1;
+    color: #fff;
+    font-size: 12px;
+}
+.small_campaign_model img{
+    width: 100%;
+    border-width: 4px;
+    border-style: double;
+    border-color: rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 7px 0px rgba(51,51,51,0.1);
+}
+/*============ Media 767Px Start ============ */
+@media (max-width: 767px) {
+    .ReactModal__Content.ReactModal__Content--after-open.small_campaign_model{
+        width: 100%;
+    }
+    .notification_offers{
+
+    }
+    .rc-notification .rc-notification-notice.notification_offers{
+        width: 200px !important;
+    }
+    .rc-notification .rc-notification-notice.notification_offers .Offer_card .title_nofi{
+        font-size: 15px;
+    }
+}

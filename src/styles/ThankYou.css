@@ -1,0 +1,124 @@
+.thankyou{
+	float: left;
+	width: 100%;
+	text-align: center;
+	padding: 50px 0px;
+}
+.content_list h4,
+.thankyou h4{ 
+	text-align:center;
+	font-size: 16px;
+	font-weight:400;
+	color:#fff;
+	display: inline-block;
+	margin-bottom: 30px;
+	width: 100%;
+}
+.thankyou .border-btn{
+	color:#fff;
+	border-radius: 5px;
+	font-weight: 500;
+	padding: 6px 20px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+.thankyou .border-btn:hover{
+	background-color: #fff;
+	color: #333;
+}
+.thankyou .fa{
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 25px;
+    color: #444;
+    background-color: #fff;
+	border-radius: 100%;
+	margin-right: 10px;
+}
+.thankyou p{
+	font-size: 12px;
+	color: #fff;
+}
+.reviews_thanks,
+.content_list{
+	float: left;
+	width: 100%;
+	text-align:center;
+}
+.reviews_thanks{
+	padding: 50px 0px;
+}
+.list_1{
+	margin-bottom: 5px;
+	float: left;
+	width: 100%;
+}
+.list_1 li{
+	display:inline-block;
+	margin-right: 5px;
+	font-size: 18px;
+}
+.list_1 li:last-child{
+	margin-right: 0px;
+}
+.list_review{
+	display:inline-block;
+	text-align:center;
+	width:auto;
+	margin-bottom: 0px;
+}
+.content_list h4{
+	margin-bottom: 0px;
+	color:#444;
+	text-transform: capitalize;
+}
+
+.ReactModal__Content.thanksmodel{
+	width: 500px;
+	border:none;
+	bottom: auto !important;
+	margin: 100px auto;
+	box-shadow: 0px 0px 6px -3px #000;
+}
+.ReactModal__Content.thanksmodel .cross-btn{
+	color: #fff;
+	top:10px;
+}
+.btn-icon.btn-normal{
+	display: inline-block;
+	margin-bottom: 5px;
+}
+.btn-icon.btn-normal img{
+	display: inline-block;
+	width: 30px;
+	margin-right: 10px;
+}
+.btn-icon.btn-normal {
+	display: none;
+}
+/*============ Media 767Px Start ============ */
+@media (max-width: 767px) {
+	.ReactModal__Content.thanksmodel{
+		width: 95%;
+		margin: 70px auto;
+		bottom: auto;
+	}
+	.btn-icon.btn-normal {
+		border: 1px solid #fff;
+		border-radius: 4px;
+		color: #e23c52;
+		font-weight: 500;
+		padding: 8px 30px 6px;
+		background: #fff;
+		box-shadow: 0px 1px 22px 0px rgba(0,0,0,0.07);
+		display: inline-block;
+		margin-top: 15px;
+		font-weight: 600;
+	}
+	.thankyou .border-btn{
+		margin-bottom: 20px;
+	}
+	
+}

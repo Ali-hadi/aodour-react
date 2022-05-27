@@ -1,0 +1,211 @@
+/*=========================
+
+ Project Aodour Footer
+ Homepage created by Aodour Team
+
+*/
+
+footer {
+  background: #344447;
+}
+.input-felid {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+.input-felid input {
+  width: 100%;
+  border: none;
+  color: #fff;
+  padding-left: 0px;
+  background: transparent;
+  border-bottom: 1px solid #fff;
+}
+.input-felid input[type="text"]::-moz-input-placeholder {
+  color: #9bb0b0;
+}
+.input-felid input[type="text"]::-webkit-input-placeholder {
+  color: #9bb0b0;
+}
+.input-felid input[type="text"]:-moz-input-placeholder {
+  color: #9bb0b0;
+}
+.input-felid input[type="text"]::-os-input-placeholder {
+  color: #9bb0b0;
+}
+.input-felid button {
+  font-size: 24px;
+  color: #fff;
+  position: absolute;
+  right: 0px;
+  padding: 0px 0px;
+  width: 30px;
+  text-align: right;
+  top: 50%;
+  margin-top: -11px;
+}
+.widget {
+  float: left;
+  width: 100%;
+  padding: 47px 0px 51px;
+}
+.widget h6 {
+  float: left;
+  width: 100%;
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+.wiget-link {
+  float: left;
+  width: 100%;
+}
+.wiget-link li {
+  float: left;
+  width: 100%;
+  line-height: normal;
+  margin-bottom: 12px;
+}
+.wiget-link li:last-child {
+  margin-bottom: 0px;
+}
+.wiget-link li a {
+  color: #fff;
+  text-transform: capitalize;
+}
+.wiget-link li:hover a {
+  text-decoration: underline;
+}
+.sprate-column {
+  margin: 45px 0px 30px;
+}
+.widget .widget-title {
+  margin-bottom: 15px;
+}
+.widget .widget-title,
+.widget h6 {
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.spacial-padding {
+  padding: 58px 0px;
+}
+.wiget-link li span {
+  color: #fff;
+  line-height: 24px;
+  text-transform: capitalize;
+}
+.wiget-link li span b {
+  margin: 0px 15px;
+  font-weight: normal;
+}
+.wiget-link li span i {
+  margin-right: 10px;
+}
+.mb10 {
+  margin-bottom: 10px !important;
+}
+.copyrights {
+  float: left;
+  width: 100%;
+  text-align: center;
+  padding: 15px 0px 10px;
+  background: #212529;
+}
+.copyrights p {
+  color: #fff;
+  display: inline-block;
+  width: auto;
+  margin: 7px 0px;
+  position: relative;
+  left: -6%;
+  text-transform: capitalize;
+}
+.copyrights p small{
+  display: inline-block;
+  font-size:100%;
+  text-transform: lowercase;
+}
+.social-icons {
+  float: left;
+  width: auto;
+}
+.social-icons li {
+  float: left;
+  width: auto;
+  margin-right: 10px;
+}
+.social-icons li:last-child {
+  margin-right: 0px;
+}
+.social-icons li a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 43px;
+  font-size: 25px;
+  color: #d5d5d5;
+  border-radius: 100%;
+}
+.via-meta {
+  float: right;
+  width: auto;
+  margin: 5px 0px;
+}
+.via-meta li {
+  float: left;
+  width: auto;
+}
+.backtoup {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  z-index: 99;
+  font-size: 28px;
+  border-radius: 100%;
+  margin-bottom: 0px;
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  bottom: 30px;
+  right: 0px;
+}
+
+/*============ Media 767Px Start ============ */
+@media (max-width: 767px) {
+  .widget .widget-title,
+  .widget h6 {
+    font-size: 14px;
+  }
+  .widget .widget-title {
+    margin-bottom: 0px !important;
+  }
+  .widget .widget-title span {
+    float: right;
+    font-size: 24px;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    margin-top: -28px;
+  }
+  .wiget-link {
+    padding-left: 10px;
+  }
+  .copyrights p {
+    left: auto;
+  }
+}
+@media (max-width: 480px) {
+  .widget.spacial-padding h6 {
+    margin-bottom: 6px;
+  }
+  .wiget-link li a {
+    font-family: "Roboto-Light";
+  }
+  .wiget-link {
+    padding-left: 10px;
+  }
+}

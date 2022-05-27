@@ -1,0 +1,212 @@
+.notify_head,
+.pro_notify_model{
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+.notify_opacity{
+    position: fixed;
+    top:0px;
+    left:0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgba(255,255,255,0.5)!important;
+}
+
+.pro_notify_model{
+    position: relative;
+    width: 100%;
+    float: none;
+    display: inline-block;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 40px 30px;
+    box-shadow: 0px 0px 3px 2px rgba(0,0,0,0.1);
+    margin: 70px 0px;
+    opacity: 1 !important;
+}
+.pro_notify_model .cross-btn{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    margin:20px;
+}
+.underline-btn{
+    display: inline-block;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.underline-btn small{
+    margin-left: 5px;
+    display: inline-block;
+    font-size: 100%;
+}
+.notify_head{
+    margin-bottom: 15px;
+}
+.align-left{
+    text-align: left;
+}
+.notify_head h6{
+	text-transform: capitalize;
+	display: inline-block;
+	margin-bottom: 0px;
+	width: 100%;
+}
+.notify_head span{
+	display: inline-block;
+	width: 100%;
+    margin-bottom: 0px;
+    
+}
+.pro_notify_model figure{
+	float: left;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.pro_notify_model figure img{
+	width: 100%;
+}
+.notify_content{
+	float: left;
+	width: 100%;
+}
+.notify_content a{
+	width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+}
+.notify_content .btn-normal{
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.notify_content .at_bg2:hover{
+    color: #fff;
+}
+.notify_content span{
+	display: inline-block;
+	width: 100%;
+}
+.notify_content h6{
+	display: inline-block;
+	width: 100%;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.notify_content h6 b{
+    display: inline-block;
+    font-weight: 600;
+}
+.btn_underline{
+    display: inline-block;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.notify_model_mobile{
+    float: left;
+    display: none;
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    padding: 15px 15px 0px;
+    border-bottom: 1px solid #e3e3e3;
+    box-shadow: 0 0 5px 1px rgba(0,0,0,.11);
+}
+.notify_model_mobile .btns .btn-normal{
+    width: 100%;
+    margin-bottom: 10px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    padding: 12px 0px;
+}
+.notify_model_mobile .btns .at_bg3:hover{
+    background: transparent !important;
+}
+.notify_model_mobile .btns .btn-normal:last-child{
+    margin-bottom: 0px;
+}
+.btns .btn-normal small{
+    margin-left: 5px;
+    font-size: 100%;
+}
+.ReactModal__Content.ReactModal__Content--after-open.productmodel{
+    width: 400px;
+    border: none !important;
+    background-color: transparent !important;
+    bottom: auto !important;  
+}
+.uploading_files_model .rc-upload{
+    display: inline-block;
+    margin-bottom: 15px;
+    float: left;
+    width: 100%;
+}
+.uploading_files_model .uploading_images .icon-close{
+    margin:-8px;
+}
+.uploading_files_model .uploading_images{
+    margin: 0px 0px 10px;
+}
+.uploading_files_model .uploading_images li 
+
+/*============	Media Between Start ============ */
+@media (max-width: 1366px){
+	
+}
+
+/*============	Media 940Px Start ============ */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+
+
+}
+
+/*============	Media 979Px Start ============ */
+@media (max-width: 991px) {
+	
+}
+
+/*============	Media 768Px Start ============ */ 
+@media (min-width: 768px) and (max-width: 990px) {
+	
+}
+
+/*============ Media 767Px Start ============ */
+@media (max-width: 767px) {
+    .pro_notify_model{
+        width: 100%;
+        display: none;
+    }
+    .notify_model_mobile{
+        display: block;
+    }
+    .ReactModal__Content.ReactModal__Content--after-open.productmodel{
+        width: 100%;
+    }
+    .notify_model_mobile .cross-btn{
+        /* top:0px; */
+    }
+    .ReactModal__Overlay--after-open.notify_opacity{
+        background-color: rgba(0,0,0,0.4) !important;
+        bottom: 0 !important;  
+    }
+    .notify_model_mobile{
+        padding: 15px;
+    }
+    .pro_notify_model.uploading_files_model{
+        background: #fff;
+        display: block;
+        float: left;
+    }
+    .pro_notify_model.uploading_files_model{
+        padding: 40px 15px;
+    }
+
+}
+
+/*============ Media 480Px Star ============ */
+@media (max-width: 480px) {
+
+	
+	
+}

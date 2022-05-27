@@ -1,0 +1,362 @@
+/*=========================
+
+ Project date 16-01-2020
+
+*/
+.category-page,
+.widget_links,
+.side_widgets,
+.dropdown-menus,
+.widget,
+.widget-sidebar{
+	float: left;
+	width: 100%;
+}
+.category-page{
+	padding: 0px 0px 40px;
+}
+.widget_filter{
+    box-shadow: none;
+    padding: 0px;    
+}
+.widget_title h1,
+.widget_title h4{
+	text-transform: capitalize;
+	border-bottom: 1px solid #e3e3e3;
+	padding: 0px 0px 15px;
+	width: 100%;
+	font-weight: 500;
+	font-size: 14px;
+	display: inline-block;
+	margin-bottom: 14px;
+}
+.dropdown-menus li,
+.widget_links{
+	float: left;
+	width: 100%;
+	position: relative;
+}
+.ReactModal__Content.ReactModal__Content--after-open.Left_Bar_Modal_Mobile_Nav .side_widgets .widget_links:first-child .widget_title{
+	border-top:none;
+}
+.dropdown-menus li ul li:before{
+	position: absolute;
+	content: "\ebfa";
+	left: 20px;
+	font-family: 'icomoon';
+	right: 0px;
+	z-index: -1;
+	bottom: -5px;
+	opacity: 0;
+	font-size: 0px;
+}
+.dropdown-menus li ul li:hover:before{
+	opacity: 1;
+	font-size: 3px;
+}
+.dropdown-menus li ul li a:before{
+	display: none !important;
+}
+.dropdown-menus ul{
+	float: left;
+	width: 100%;
+	margin-bottom: 5px;
+}
+.dropdown-menus li a{
+	font-size: 14px;
+	position: relative;
+	padding: 0px;
+	width: 100%;
+	text-transform: capitalize;
+}
+.dropdown-menus li ul li:hover > a{
+	padding-left: 20px;
+}
+.dropdown-menus li span{
+	position: absolute;
+	right: 0px;
+	top: 50%;
+	font-size: 12px;
+	margin-top: -8px;
+}
+.dropdown-menus ul.sb-menu.list{
+	margin-top: 10px;
+}
+.dropdown-menus li{
+	margin-bottom: 5px;
+}
+.dropdown-menus li:last-child{
+	margin-bottom: 0px;
+}
+.dropdown-menus li .sb-menu.list li a{
+	font-size: 12px;
+}
+.content_area{
+	float: left;
+	width: 100%;
+}
+.owl-theme{
+	float: left;
+	width: 100%;
+}
+.picture_section{
+	float: left;
+	width: 100%;
+	position: relative;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 0px;
+	/* min-height: 350px;
+	max-height: 350px; */
+}
+
+.opacity0{
+	opacity: 0;
+}
+.brand_content{
+	float: left;
+	width: 60%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	margin: 30px;
+}
+.brand_content h1{
+	text-transform: capitalize;
+	margin-bottom: 30px;
+	font-size: 30px;
+	line-height: 24px;
+	position: relative;
+}
+.brand_content h1:before {
+	position: absolute;
+	content: "\ebfa";
+	left: 0px;
+	font-family: "icomoon";
+	right: 0px;
+	bottom: -9px;
+	opacity: 1;
+	line-height: 0px;
+	font-size: 7vw;
+	width: 100%;
+	z-index: 4;
+  }
+  .brand_content p{
+	font-size: 16px;
+	min-height: 220px;
+	max-height: 220px;
+}  
+.add_section{
+	float: left;
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+/* .owl-nav button.owl-prev{
+	left: -22px;
+}
+.owl-nav button.owl-next{
+	right: -10px;
+} */
+.owl-carousel .owl-nav button span{
+	color: #70767d;
+}
+.menu_button{
+	float: left;
+	width: 100%;
+	background-color: #f9f9f9;
+	text-align: center;
+	cursor: pointer;
+	display: none;
+}
+.filter_btn{
+	display: inline-block;
+	font-size: 16px;
+	
+	padding: 10px 0px;
+	cursor: pointer;
+	text-transform: capitalize;
+}
+.filter_btn i{
+	margin-left: 5px;
+}
+
+
+
+.ReactModalPortal .Left_Bar_Modal_Mobile_Nav {
+	overflow: visible;
+    top: 0px !important;
+    left: 0px !important;
+    right: 0px !important;
+	bottom: 0px !important;
+	position: absolute;
+    border: 0px solid rgb(204, 204, 204) !important;
+    background: rgb(255, 255, 255);
+    border-radius: 4px;
+    overflow: visible;
+    margin: 0 auto;
+    width: 100%;
+    outline: none;
+	padding: 20px !important;
+	text-align: left;
+}
+.Left_Bar_Modal_Mobile_Nav .icon-close{
+	top: 25px;
+    right: 20px;
+	font-size: 11px;
+	color:#000;
+	opacity:1;
+	font-weight: 600;
+}
+.Left_Bar_Modal_Mobile_Nav .accordian-div ul{
+	padding: 0px;
+	border:none;
+	text-align: left;
+}
+.accordian-div ul li a,
+.Left_Bar_Modal_Mobile_Nav .accordian-div ul li a{
+	font-size: 13px;
+}
+.Left_Bar_Modal_Mobile_Nav h5{
+	float:left;
+	width: 100%;
+	text-transform: uppercase;
+	border-bottom: 1px solid rgba(51,51,51,0.04);
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+.Left_Bar_Modal_Mobile_Nav .side_widgets{
+	padding:0px;
+	box-shadow: none;
+}
+.backbtn{
+	position: absolute;
+    left: 12px;
+    top: 25px;
+	font-size: 12px;
+	font-weight: 600;
+}
+
+/*============	Media Between Start ============ */
+@media (max-width: 1366px){
+	.picture_section{
+		min-height: 100%;
+		max-height: auto;
+	}
+	.picture_section{
+		background-size: 100%;
+	}
+	.brand_content p{
+		min-height: 100%;
+		max-height: 150px;
+		overflow: hidden;
+	}
+}
+
+/*============	Media 940Px Start ============ */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+	.picture_section{
+		min-height: 100%;
+		max-height: auto;
+	}
+	.picture_section{
+		background-size: 100%;
+	}
+	.brand_content p{
+		min-height: 100%;
+		max-height: 150px;
+		overflow: hidden;
+	}
+
+}
+/*============	Media 979Px Start ============ */
+@media (max-width: 991px) {
+	.menu_button{
+		display: block;
+	}
+	.brand_content p{
+		min-height: 110px;
+		max-height: 110px;
+		overflow: hidden;
+	}
+}
+
+/*============	Media 768Px Start ============ */ 
+@media (min-width: 768px) and (max-width: 990px) {
+	
+}
+
+/*============ Media 767Px Start ============ */
+@media (max-width: 767px) {
+	.menu_button{
+		display: block;
+	}
+	.sb-menu,.mobile-hide{
+		display: none;
+	}
+	.picture_section{
+		padding: 0px;
+		background-position: center;
+		background-size: cover;
+		min-height: 130px;
+		max-height: 330px;
+		overflow: hidden;
+	}
+	
+	.brand_content {
+		float: left;
+		padding: 0px 0px 0px;
+		width: 70%;
+		margin: 15px;
+	}
+	.brand_content h1{
+		font-size: 20px;
+		line-height: 18px;
+		margin-bottom: 10px;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		overflow: hidden;
+	}
+	.brand_content h1:before{
+		bottom: -5px;
+	}
+	.brand_content p{
+		font-size: 10px;
+		text-align: left;
+		line-height: normal;
+		white-space: break-spaces;
+		text-overflow: ellipsis;
+		overflow: hidden;
+		min-height: 80px;
+		max-height: 87px;
+		text-shadow: 0px 0px 0px #000;
+	}
+	.widget_title h1, .widget_title h4{
+		padding-left: 20px;
+	}
+	.widget_title h1{
+		text-decoration: underline;
+	}
+	.dropdown-menus li{
+		margin-bottom: 12px;
+	}
+
+	.content_area .owl-theme.no-arrows.mb50{
+		margin-bottom: 15px;
+	}
+	.content_area .heading{
+		margin-bottom: 4px;
+	}
+	.content_area .owl-dots{
+		display: none;
+	}
+
+}
+/*============ Media 480Px Star ============ */
+@media (max-width: 480px) {
+	.sb-menu,.mobile-hide{
+		display: none;
+	}
+}
+
+

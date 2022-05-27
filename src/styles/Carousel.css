@@ -1,0 +1,65 @@
+/* Temporiry Stuff */
+.owl-nav button{
+	position: absolute;
+	top: 50%;
+	margin-top: -25px;
+}
+.owl-nav button{
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	line-height: 0px;
+    font-size: 40px;
+    border:none;
+    border-radius: 100%;
+}
+.owl-carousel .owl-nav button{
+    background-color: #fff;
+    color: #444;
+    border:2px solid #ccc;
+    box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.1);
+}
+
+.owl-nav button.owl-next{
+    right: -60px;
+}
+.owl-nav button.owl-prev{
+    left: -60px;
+}
+.owl-nav button:hover{
+	color: #fff;
+}
+.owl-nav button:hover span{
+    color:#fff;
+}
+.owl-nav button span{
+    font-size: 100%;
+    line-height: 42px;
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    color: #444;
+}
+.slider_nav .owl-nav button{
+    margin: -40px -17px;
+    padding: 0px 18px;
+}
+.slider_nav{
+    float:left;
+    width: 100%; 
+}
+.owl-stage-outer{
+    overflow: hidden;
+}
+/*============ Media 480Px Star ============ */
+@media (max-width: 480px) {
+	.owl-nav button span{
+		line-height: 34px;
+    }
+    .slider_nav .owl-nav button{
+        margin: -40px -12px;
+    }
+
+}

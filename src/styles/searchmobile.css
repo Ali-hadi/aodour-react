@@ -1,0 +1,32 @@
+/*=========================
+
+ Project Aodour Header
+ Homepage created by Aodour Team
+
+*/
+
+
+
+.search-box,
+.search_row form,
+.search_row{
+	float: left;
+	width: 100%;
+}
+.search-box{
+    position: relative;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.search-box input{
+	width: 100%;
+	border:none;
+	background: ghostwhite;
+}
+.search-button i{
+	position: absolute;
+    right: 10px;
+    top: 50%;
+    margin-top: -10px;
+    font-size: 20px;
+}

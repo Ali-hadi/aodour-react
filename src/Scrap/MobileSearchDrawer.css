@@ -1,0 +1,89 @@
+
+.search-box,
+.search_row form,
+.search_row{
+	float: left;
+	width: 100%;
+}
+.search-box{
+	position: relative;
+}
+.SearchDrawer .search-box input{
+	width: 100%;
+	border:none;
+	color: #fff;
+	padding: 0px 60px;
+}
+.SearchDrawer .search-box input::-webkit-input-placeholder {color: #fff; opacity: 1;}
+.SearchDrawer .search-box input:-moz-placeholder { color: #fff; opacity: 1; }
+.SearchDrawer .search-box input::-moz-placeholder { color: #fff; opacity: 1; }
+.SearchDrawer .search-box input:-ms-input-placeholder {color: #fff; opacity: 1;}
+.SearchDrawer .search-box span,
+.SearchDrawer .search-box button{
+	position: absolute;
+	right: 15px;
+	top: 50%;
+	margin-top: -13px;
+	font-size: 24px;
+	color: #fff;
+}
+.SearchDrawer .search_row{
+	position: relative;
+}
+.SearchDrawer .search-box span{
+	left: 15px;
+	right: auto;
+	cursor: pointer;
+}
+.search_dav{
+	position: absolute;
+	top: 100%;
+	left: 0px;
+	right: 0px;
+	background: #fff;
+}
+.dev_search{
+	float: left;
+	width: 100%;
+	padding: 7px 15px;
+	border-bottom: 1px dotted #ccc;
+}
+.dev_search img{
+	float: left;
+	width: 30px;
+	height: 30px;
+	border-radius: 100%;
+	margin: 0px 0px;
+}
+.dev_caption{
+	float: none;
+	width: auto;
+	overflow: hidden;
+	padding: 5px 15px;
+}
+.group_search h5{
+	text-transform: capitalize;
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 0px;
+	font-size: 16px;
+	
+	line-height: normal;
+	padding: 15px;
+	white-space: nowrap;
+	overflow: hidden;
+  	text-overflow: ellipsis;
+}
+.group_search > a{
+	width: 100%;
+}
+.dev_caption p{
+	display: inline-block;
+	width: 100%;
+	font-size: 14px;
+	line-height: normal;
+	white-space: nowrap;
+	overflow: hidden;
+	  text-overflow: ellipsis;
+	  cursor: pointer;
+}

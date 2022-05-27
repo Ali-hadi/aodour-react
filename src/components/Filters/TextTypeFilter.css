@@ -1,0 +1,130 @@
+.check_colors{
+    float: left;
+    width: 100%;
+    padding: 5px 6px;
+    margin-bottom: 14px;
+    text-align: left;
+}
+.check_colors:last-child{
+    margin-bottom: 0px;
+}
+.check_colors input[type="checkbox"]{
+    display: none;
+}
+.check_colors label{
+    margin: 0px;
+    float: left;
+    width: 100%;
+    font-size: 12px;
+    line-height: 12px;
+    position: relative;
+    left:0px;
+    background-color: transparent;
+    cursor: pointer;
+    color:#212529;
+    text-transform: capitalize;
+}
+.bg1{
+    background-color: #fff;
+}
+.check_colors label span{
+    position: relative;
+    float: left;
+    list-style: 10px;
+    margin: 0px 14px 0px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 10px;
+    height: 10px;
+}
+ .mobile_check.check_colors span:before,
+ .discount_check label span:before,
+.check_colors label span:before{
+    position: absolute;
+    content: "";
+    margin: 0 auto;
+    text-align: center;
+    z-index: 2;
+    width: 10px;
+    height: 10px;
+    outline:1px solid #000;
+    outline-offset: 4px;
+    background-color: transparent;
+ }
+.check_colors label:hover span:before{
+    background-color: #777;
+}
+.check_colors input[type="checkbox"]:checked ~ label span:before{
+    background-color: #333;
+}
+.mobile_check.check_colors{
+    padding: 0px 14px;
+}
+
+
+.search_filters li span i{
+    margin-right: 6px;
+    color: #212529;
+}
+.mobile_check.check_colors label{
+    color:#000;
+    font-size: 14px;
+}
+.discount_check label{
+    line-height: 10px;
+    color:#000;
+    font-size: 14px;
+}
+.scroll-bar{
+    overflow-y: auto !important;
+    margin: 0px 0 20px;
+    min-height:auto;
+    max-height: 180px;
+}
+.scroll-bar::-webkit-scrollbar-track
+{
+	box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+.scroll-bar::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #F5F5F5;
+}
+
+@media (max-width: 767px) {
+	.filter-menu .selection_bar select{
+		background: none;
+		width: 100%;
+        padding: 0px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+    .mobile_check.check_colors{
+        padding:0px;
+    }
+	.mobile_check.check_colors label{
+        line-height: 16px;
+        float: none;
+        text-align: right;
+        display: inline-block;
+	}
+	.mobile_check.check_colors label span{
+        margin: 0px 17px 0px 0px;
+        float: none;
+        display: inline-block;
+    }
+	.mobile_check.check_colors label span:before{
+		width: 6px;
+        height: 6px;
+        margin-top: 3px;
+    }
+    .check_colors label:hover span:before{
+        background: transparent;
+    }
+    .search_filters li:last-child span{
+        float: right;
+    }
+
+}

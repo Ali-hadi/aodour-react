@@ -1,0 +1,106 @@
+.mobile_nav{
+    display: none;
+    float: left;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 5;
+}
+.fixed_responsive_menu{
+    float: left;
+    width: 100%;
+    background: #fff;
+}
+.fixed_responsive_menu li{
+    float: left;
+    width: 24%;
+    text-align: center;
+}
+.fixed_responsive_menu li a i{
+    width: 100%;
+    font-size: 20px;
+    margin-bottom: 1px;
+}
+.fixed_responsive_menu li a{
+    display: inline-block;
+    width: 100%;
+    font-size: 10px;
+    padding: 12px 0px;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.fixed_responsive_menu li a img{
+	width: 22px;
+	padding: 0px;
+	margin-bottom: 7px;
+}
+.fixed_responsive_menu li a b{
+	display: inline-block;
+	width: 100%;
+	font-size: 14px;
+	font-weight: normal;
+	color: #8e8e8e;
+}
+
+/*============	Media Between Start ============ */
+@media (max-width: 1366px){
+}
+
+/*============	Media 940Px Start ============ */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+	
+	
+
+}
+/*============	Media 979Px Start ============ */
+@media (max-width: 991px) {
+}
+
+/*============	Media 768Px Start ============ */ 
+@media (min-width: 768px) and (max-width: 990px) {
+
+}
+
+/*============ Media 767Px Start ============ */
+@media (max-width: 767px) {
+	.mobile_nav{
+		display: block !important;
+		float: left;
+		width: 100%;
+		position: fixed;
+		bottom: 0px;
+		left: 0px;
+		right: 0px;
+		z-index: 5;
+	}
+}
+/*============ Media 480Px Star ============ */
+@media (max-width: 480px) {
+	.mobile_nav{
+		display: block !important;
+		float: left;
+		width: 100%;
+		position: fixed;
+		bottom: 0px;
+		left: 0px;
+		right: 0px;
+		z-index: 5;
+	}
+	.fixed_responsive_menu{
+		float: left;
+		width: 100%;
+		background: #f9f9f9;
+	}
+	.fixed_responsive_menu li{
+		float: left;
+		width: 24%;
+		text-align: center;
+	}
+	.fixed_responsive_menu li a i{
+		width: 100%;
+		font-size: 20px;
+		margin-bottom: 1px;
+	}
+}

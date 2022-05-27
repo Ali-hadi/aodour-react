@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="38.673" height="30.622" viewBox="0 0 38.673 30.622">
+    <defs>
+        <style>
+            .cls-1{fill:#fbeaec}.cls-1,.cls-2{stroke:#e23c52}.cls-1,.cls-2,.cls-3{stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px}.cls-2{fill:#e23c52}.cls-3{fill:none;stroke:#fff}
+        </style>
+    </defs>
+    <g id="Group_630" data-name="Group 630" transform="translate(-1240.895 -944.697)">
+        <path id="Path_2305" d="M1274.572 956.5c3.539 2.16 3.531 9.615-1.881 10.592v2.725a1.27 1.27 0 0 1-1.27 1.27H1248.6a1.27 1.27 0 0 1-1.271-1.27v-.964" class="cls-1" data-name="Path 2305" transform="translate(1.774 3.485)"/>
+        <path id="Path_2306" d="M1268.49 948.967l-.657-2.557a1.232 1.232 0 0 0-1.5-.886l-21.418 5.511a1.23 1.23 0 0 0-.886 1.5l.657 2.551c-5.234 2.36-3.04 11.07 2.729 10.609l.655 2.55a1.233 1.233 0 0 0 1.5.886l21.418-5.511a1.232 1.232 0 0 0 .886-1.5l-.658-2.558c5.201-2.386 2.977-11.012-2.726-10.595z" class="cls-2" data-name="Path 2306"/>
+        <path id="Path_2307" d="M1260.471 955.569a2.085 2.085 0 1 1-2.584-1.921 2.3 2.3 0 0 1 2.584 1.921z" class="cls-3" data-name="Path 2307" transform="translate(4.648 2.567)"/>
+        <path id="Path_2308" d="M1254.919 952.638a2.085 2.085 0 1 1-2.583-1.921 2.3 2.3 0 0 1 2.583 1.921z" class="cls-3" data-name="Path 2308" transform="translate(2.891 1.64)"/>
+        <path id="Line_1196" d="M4.704 0L0 11.64" class="cls-3" data-name="Line 1196" transform="translate(1257.04 950.907)"/>
+        <path id="Line_1197" d="M3.254 0L0 .806" class="cls-3" data-name="Line 1197" transform="translate(1248.788 958.813)"/>
+    </g>
+</svg>

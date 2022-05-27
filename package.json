@@ -1,0 +1,80 @@
+{
+  "name": "aodour-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@kunukn/react-collapse": "^2.2.7",
+    "@rumess/react-flip-countdown": "^1.1.1",
+    "add": "^2.0.6",
+    "axios": "^0.19.0",
+    "dotenv": "^8.2.0",
+    "history": "^4.10.1",
+    "jquery": "^3.4.1",
+    "moment": "^2.24.0",
+    "nuka-carousel": "^4.6.6",
+    "prop-types": "^15.7.2",
+    "rc-drawer": "^3.1.3",
+    "rc-notification": "^3.3.1",
+    "rc-upload": "^3.2.0",
+    "react": "^16.11.0",
+    "react-axios": "^2.0.3",
+    "react-countdown-now": "^2.1.2",
+    "react-device-detect": "^1.11.14",
+    "react-dom": "^16.11.0",
+    "react-facebook-login": "^4.1.1",
+    "react-ga": "^2.7.0",
+    "react-google-login": "^5.1.20",
+    "react-helmet": "^6.0.0",
+    "react-html-parser": "^2.0.2",
+    "react-infinite-scroll-component": "^5.0.4",
+    "react-infinite-scroller": "^1.2.4",
+    "react-input-range": "^1.3.0",
+    "react-loader-spinner": "^3.1.5",
+    "react-modal": "^3.11.1",
+    "react-owl-carousel": "^2.3.1",
+    "react-paginate": "^6.3.2",
+    "react-player": "^1.15.3",
+    "react-redux": "^7.1.3",
+    "react-responsive-carousel": "^3.1.51",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^3.4.3",
+    "react-show-more-text": "^1.4.0",
+    "react-tabs": "^3.0.0",
+    "react-ticker": "^1.2.2",
+    "react-transition-group": "^4.3.0",
+    "react-useportal": "^1.0.13",
+    "react-zoom-slider": "^0.1.0",
+    "redux": "^4.0.5",
+    "redux-saga": "^1.1.3",
+    "sitemap": "^6.1.7",
+    "yarn": "^1.22.5",
+    "yarn-install": "^1.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "npm run sitemap && react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "sitemap": "babel-node src/util/sitemapGenerator.js"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/node": "^7.10.4",
+    "@babel/preset-env": "^7.10.4"
+  }
+}

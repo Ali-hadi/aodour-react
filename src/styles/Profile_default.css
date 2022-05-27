@@ -1,0 +1,979 @@
+.profile_page {
+  /* background-color: #f3f3f3; */
+  float: left;
+  width: 100%;
+  padding: 60px 0px 30px;
+}
+.widget_log {
+  float: left;
+  width: 100%;
+  background-color: #fff;
+}
+.ao_ordertable,
+.widget_log .list {
+  float: left;
+  width: 100%;
+  margin: 0px;
+}
+.widget_log .list li {
+  float: left;
+  width: 100%;
+  padding: 16px 15px 14px;
+  border-bottom: 2px solid #f3f3f3;
+  position: relative;
+  cursor: pointer;
+  border-right: 2px solid #f3f3f3;
+  border-left: 2px solid #f3f3f3;
+}
+.widget_log .list li a {
+  width: 100%;
+}
+.widget_log .list li.active:before {
+  height: 100%;
+}
+.widget_log .list li:first-child {
+  border-top: 2px solid #f3f3f3;
+}
+.widget_log .list li:before {
+  position: absolute;
+  content: "";
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  height: 0%;
+  border-right: 3px solid;
+}
+.widget_log .list li:hover:before,
+.widget_log .list li.active {
+  height: 100%;
+}
+.widget_log .list li {
+  padding: 16px 15px 14px;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+.widget_log .list li i {
+  margin-right: 15px;
+  float: left;
+  margin-top: 3px;
+  width: 15px;
+  font-size: 16px;
+  text-align: center;
+}
+.widget_log .list li i.fa-2x {
+  font-size: 20px;
+  margin-top: 0px;
+}
+.widget_log .list li i.fa-1x {
+  font-size: 18px;
+  margin-top: 0px;
+}
+
+.align-center {
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+.profile_info {
+  float: none;
+  display: inline-block;
+  width: 60%;
+  position: relative;
+  padding: 20px;
+  background-color: #fff;
+  margin-bottom: 40px;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.1);
+}
+.background-color {
+  background: #f3f3f3;
+}
+.background-color:before {
+  background-color: #f3f3f3;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  width: 100%;
+  height: 100%;
+  content: "";
+}
+.profile_info figure {
+  float: left;
+  width: 25%;
+}
+.profile_info figure img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+}
+.user_information {
+  float: left;
+  width: 65%;
+  padding: 12px 15px 0px;
+  text-align: left;
+}
+.edit {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #999;
+  cursor: pointer;
+}
+.edit i {
+  margin-right: 6px;
+}
+.box_information h5,
+.user_information h5 {
+  margin-bottom: 5px;
+  display: inline-block;
+  width: 100%;
+}
+.user_information h6 span {
+  display: inline-block;
+  text-transform: capitalize;
+  margin-right: 5px;
+  color: #000000;
+}
+.user_information h6 {
+  font-size: 14px;
+  display: inline-block;
+  color: #989898;
+  width: 100%;
+  line-height: 26px;
+}
+.user_information a {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.box_information {
+  float: left;
+  position: relative;
+  width: 100%;
+  padding: 0px 25px;
+  margin: 20px 0px;
+}
+.textarea,
+.address_padding {
+  float: left;
+  width: 100%;
+  background-color: #fff;
+}
+.box_information h5 {
+  margin-bottom: 20px;
+}
+.box_information h5 i {
+  margin-right: 10px;
+  font-size: 20px;
+}
+.textarea textarea,
+.box_information textarea {
+  width: 50%;
+  float: left;
+  min-height: 90px;
+  max-height: 160px;
+}
+.textarea {
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+.box_information textarea{
+  background: #f0f0f0;
+  box-shadow: 0px 0px 10px 10px rgba(255,255,255,0.1);
+  border: 1px solid rgba(0,0,0,0.04);
+}
+.fullwidth {
+  width: 100%;
+}
+.textarea textarea {
+  border-color: #c3d3c3;
+  width: 100%;
+}
+.information_model select {
+  height: auto;
+  border: none;
+  border-bottom: 1px solid #c3d3c3;
+  line-height: normal;
+  padding: 0px 0px 10px;
+  font-size: 14px;
+  text-align: left;
+}
+.box_information .edit {
+  right: 30px;
+}
+.information_model {
+  float: left;
+  width: 100%;
+  padding: 50px;
+  background: #fff;
+  text-align: center;
+  margin: 15px;
+  position: relative;
+  box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.1);
+}
+.information_model figure {
+  display: inline-block;
+  width: 100%;
+  padding: 0px 0px;
+  float: none;
+  margin: 0 auto 15px;
+  text-align: center;
+}
+.information_model figure img {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  float: none;
+  overflow: hidden;
+  border-radius: 100%;
+}
+.information_model figure label {
+  width: 180px;
+  height: 180px;
+  display: inline-block;
+  margin: 0px;
+  position: relative;
+  border-radius: 100%;
+  cursor: pointer;
+}
+.information_model figure input[type="file"] {
+  display: none;
+}
+.information_model figure label span {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 14px;
+  background-color: rgba(0,0,0,0.6);
+  border-radius: 100%;
+  color: #fff;
+  display: inline-block;
+}
+.information_model .text-felid {
+  float: left;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.information_model .text-felid input {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding: 0px 5px;
+  height: auto;
+}
+.information_model .text-felid label {
+  float: left;
+  width: 100%;
+  margin: 0px;
+  text-align: left;
+}
+.information_model .text-felid label sup{
+  font-size: 18px;
+  top: 2px;
+  margin-right: 4px;
+}
+.gender_tab {
+  float: left;
+  width: 100%;
+  padding: 10px 0px 30px;
+}
+.gender_tab li {
+  float: left;
+  width: auto;
+  margin-right: 15px;
+}
+.gender_tab li span {
+  padding: 6px 0px;
+  display: inline-block;
+}
+.gender_tab li .checkbox_select {
+  float: left;
+  width: auto;
+}
+.checkbox_select input[type="radio"] {
+  display: none;
+}
+.checkbox_select label {
+  padding: 5px 15px;
+  background-color: transparent;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  float: left;
+  margin: 0px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.checkbox_select label i {
+  margin-right: 10px;
+  color: #000000;
+}
+.checkbox_select input[type="radio"]:checked ~ label {
+  background: #e23c52;
+  color: #fff;
+  border-color: #fff;
+}
+.checkbox_select input[type="radio"]:checked ~ label i {
+  color: #fff;
+}
+
+.btn-normal2 {
+  padding: 12px 20px;
+  text-transform: uppercase;
+  display: inline-block;
+  border-radius: 10px;
+}
+.btn-normal2:hover {
+  color: #fff;
+}
+
+.information_model .check_colors {
+  float: left;
+  width: 100%;
+  padding: 5px 6px;
+  margin-bottom: 30px;
+  text-align: left;
+}
+.information_model .check_colors:last-child {
+  margin-bottom: 0px;
+}
+.information_model .check_colors input[type="checkbox"] {
+  display: none;
+}
+.information_model .check_colors label {
+  margin: 0px;
+  float: left;
+  width: 100%;
+  font-size: 12px;
+  line-height: 12px;
+  position: relative;
+  left: 0px;
+  background-color: transparent;
+  cursor: pointer;
+  color: #212529;
+  text-transform: capitalize;
+}
+.information_model .check_colors label span {
+  position: relative;
+  float: left;
+  list-style: 10px;
+  margin: 0px 14px 0px 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 10px;
+  height: 10px;
+}
+.information_model .check_colors label span:before {
+  position: absolute;
+  content: "";
+  margin: 0 auto;
+  text-align: center;
+  z-index: 2;
+  width: 10px;
+  height: 10px;
+  outline: 1px solid #c3d3c3;
+  outline-offset: 4px;
+  background-color: transparent;
+}
+.information_model .check_colors label:hover span:before {
+  background-color: #777;
+}
+.information_model
+  .check_colors
+  input[type="checkbox"]:checked
+  ~ label
+  span:before {
+  background-color: #333;
+}
+.empty_cart {
+  float: left;
+  padding: 0px 0px;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  margin-top: -50px;
+}
+.empty_cart span {
+  display: inline-block;
+  font-size: 80px;
+  line-height: 0px;
+  margin-bottom: 50px;
+  opacity: 0.1;
+}
+.empty_cart h6 {
+  font-size: 16px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.empty_cart h6:last-child {
+  margin-bottom: 0px;
+}
+.empty_cart p {
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+.empty_cart figure {
+  width: 130px;
+  height: auto;
+  float: none;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+.empty_cart figure img {
+  width: auto;
+}
+.heading h4 {
+  text-transform: capitalize;
+}
+.mt50.empty_cart {
+  margin-top: -140px;
+}
+.tab_orders .collapse-css-transition,
+.table_style,
+.signal_row ul,
+.signal_row {
+  float: left;
+  width: 100%;
+}
+.signal_row {
+  margin-bottom: 2px;
+  position: relative;
+  cursor: pointer;
+}
+.signal_row .icon-plus,
+.signal_row .icon-minus {
+  float: right;
+}
+.signal_row tr {
+  margin-bottom: 15px;
+  border-bottom:1px solid #ececec;
+  padding: 15px 0px;
+}
+.signal_row tr th {
+  margin-bottom: 15px;
+}
+.order_felid {
+  margin-bottom: 30px;
+}
+.signal_row:before {
+  position: absolute;
+  content: "";
+  right: 0px;
+  top: 0px;
+  font-family: fontawesome;
+}
+.signal_row th,
+.table_style thead tr th,
+.table_style tbody tr td {
+  font-size: 14px;
+  border: none;
+  font-weight: 300;
+  padding: 0px 0px;
+  line-height: 24px;
+  width: 10%;
+  vertical-align: middle;
+}
+.signal_row th {
+  padding: 10px 0px;
+}
+.table_style tbody tr td {
+  border-bottom: 2px solid #ececec;
+  padding: 15px;
+}
+.table_style thead tr th {
+  padding: 10px 0px;
+}
+.table_style tbody tr {
+  background-color: #f3f3f3;
+}
+.track_order_product_image {
+  width: 100px;
+}
+.nav_tab ul,
+.nav_tab {
+  float: left;
+  width: 100%;
+}
+.nav_tab {
+  border-bottom: 2px solid #ececec;
+}
+.nav_tab ul li {
+  float: left;
+  width: auto;
+  padding: 15px 30px;
+  cursor: pointer;
+}
+.profile_table {
+  float: left;
+  width: 100%;
+}
+.mb14 {
+  margin-bottom: 14px;
+}
+.address_grid {
+  float: left;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.address_grid h4 {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+.address_grid a{
+  padding: 12px 30px;
+}
+.address_grid a i{
+  color: #fff;
+  margin-right: 10px;
+  float: left;
+  line-height: 20px;
+  font-weight: 600;
+  font-size: 12px;
+}
+.address_column,
+.addresses_row{
+  float: left;
+  width: 100%;
+}
+.address_column{
+  padding: 20px 0px 16px 0px;
+  margin-bottom: 0px;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+}
+.addresses_row .address_column:first-of-type{
+  border-top: 1px solid #ccc;
+}
+.address_column p{
+  float:left;
+  width: 100%;
+}
+.crud_actions .checkbox{
+  float: left;
+  width: auto;
+}
+.crud_actions{
+  width: auto;
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  margin-top: -13px;
+}
+.crud_actions .checkbox input[type="radio"]{
+	display: none;
+}
+.crud_actions .checkbox label{
+	display: inline-block;
+	margin-bottom: 0px;
+	float: left;
+	color: #212529;
+	background-color: transparent;
+	position: relative;
+	width: auto;
+	left:0px;
+	line-height: normal;
+  top:5px;
+  cursor: pointer;
+}
+.crud_actions .checkbox label span{
+  float:left;
+	width: 15px;
+	height: 15px;
+	text-align: center;
+	line-height: 8px;
+	position: relative;
+	border:1px solid  rgba(0, 0, 0, 0.2);
+	border-radius: 100%;
+	margin-right: 5px;
+	margin-top: 0px;
+}
+.crud_actions .checkbox label span:before{
+	position: absolute;
+	content:"";
+	top: 2px;
+	left: 2px;
+	border-radius: 100%;
+	right: 2px;
+	bottom: 2px;
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.2);
+}
+.crud_actions .checkbox input[type="radio"]:checked ~ label span:before{
+	background: #e23c52;
+	opacity: 1;
+}
+.crud_actions .checkbox input[type="radio"]:checked ~ label span{
+  border-color: #e23c52;
+}
+.crud_buttons {
+  float: left;
+  margin: 3px 0px 0px 5px;
+}
+.crud_buttons li{
+  float: left;
+  width: auto;
+  margin-left:5px;
+}
+.crud_buttons li a{
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  color: #fff;
+  float: left;
+  text-align: center;
+}
+.item_subscribr {
+  float: left;
+  width: 100%;
+  padding: 15px 0px;
+}
+.item_subscribr p {
+  width: 70%;
+  float: left;
+}
+.item_subscribr span {
+  float: right;
+  width: 30%;
+}
+.plus-btn {
+  display: inline-block;
+  position: relative;
+  padding-left: 20px;
+  font-size: 16px;
+  color: #000;
+}
+.plus-btn:before {
+  position: absolute;
+  content: "\eab7";
+  font-family: "icomoon";
+  top: 0px;
+  color: #000;
+  font-size: 14px;
+  left: 0px;
+  bottom: 0px;
+}
+
+.ReactModal__Content.ReactModal__Content--after-open.accountpage_info {
+  border: none;
+  background-color: transparent;
+  opacity: 1;
+  width: 500px;
+  border: none !important;
+  bottom: auto;
+  margin: 30px auto;
+}
+.ReactModal__Overlay
+  .ReactModal__Content.ReactModal__Content--after-open.accountpage_info {
+  bottom: auto;
+}
+.ReactModal__Overlay
+  .ReactModal__Content.ReactModal__Content--after-open.accountpage_info
+  .modal-dialog {
+  margin: 50px auto;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.moblie_profile {
+  float: left;
+  width: 100%;
+  display: none;
+}
+.moblie_profile ul.list {
+  border: none;
+}
+.widget_log.moblie_profile .list li:first-child,
+.moblie_profile ul.list li {
+  border: none;
+  box-shadow: 0px 8px 15px -5px rgba(0, 0, 0, 0.3);
+}
+.felids_resets,
+.text-type,
+.tab_content_area,
+.tab_orders {
+  float: left;
+  width: 100%;
+}
+.tab_orders .tab_content_area {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #ececec;
+}
+.tab_orders li {
+  float: left;
+  width: auto;
+}
+.tab_orders li span {
+  display: inline-block;
+  padding: 0px 25px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.tab_orders li:first-child span{
+  padding-left: 0px;
+}
+.tab_orders .table_style tbody tr {
+  background-color: transparent;
+}
+.profile_page .heading h1,
+.profile_page .heading h3 {
+  font-size: 20px;
+}
+.text-type label {
+  /* display: none; */
+  position: absolute;
+  top: -7px;
+  font-size: 11px;
+  text-align: left;
+  display: none;
+}
+.felids_resets {
+  position: relative;
+  padding-top: 12px;
+}
+.text-type .error label {
+  display: block;
+}
+.text-type .felids_resets.error input {
+  box-shadow: 0px 1px 3px -2px red;
+}
+.information_model figure i {
+  position: absolute;
+  font-size: 54px;
+  left: 0px;
+  right: 0px;
+  top: 50%;
+  margin-top: -25px;
+}
+
+/*============	Media Between Start ============ */
+@media (max-width: 1366px) {
+  .profile_info {
+    width: 70%;
+  }
+  .profile_info figure {
+    width: auto;
+  }
+  .tab_orders .signal_row th,
+  .tab_orders .table_style thead tr th,
+  .tab_orders .table_style tbody tr td {
+    width: 10%;
+    font-size: 12px;
+  }
+  .tab_orders .right_contents span {
+    font-size: 12px;
+  }
+}
+
+/*============	Media 940Px Start ============ */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+}
+
+/*============	Media 979Px Start ============ */
+@media (max-width: 991px) {
+}
+
+/*============	Media 768Px Start ============ */
+@media (min-width: 768px) and (max-width: 990px) {
+}
+
+/*============ Media 767Px Start ============ */
+@media (max-width: 767px) {
+  .table_style tbody tr td {
+    padding: 9px 2px;
+    line-height: normal;
+    text-align: left;
+    width: auto;
+  }
+  .track_order_product_image {
+    width: 70px;
+    padding: 0px 4px;
+  }
+  .table_style thead tr th {
+    width: auto;
+    font-size: 12px;
+    padding: 9px 2px;
+  }
+  .table_style tbody tr td {
+    font-size: 12px;
+  }
+  .signal_row th {
+    padding: 2px 2px;
+    width: auto;
+    font-size: 12px;
+    word-spacing: 2px;
+    letter-spacing: -1px;
+    text-align: center;
+  }
+  .res_mobo {
+    display: none;
+  }
+  .nav_tab ul {
+    text-align: center;
+  }
+  .nav_tab ul li {
+    float: none;
+    width: auto;
+    padding: 5px 10px;
+    cursor: pointer;
+    display: inline-block;
+    line-height: normal;
+    margin: 0px 8px 8px;
+    background: #e23c52;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+  }
+  .nav_tab ul li span {
+    display: none;
+  }
+
+  .nav_tab {
+    border: none;
+    margin-bottom: 20px;
+  }
+
+  .box_information {
+    float: left;
+    position: relative;
+    width: 100%;
+    padding: 20px 25px;
+    margin: 0px 0px;
+  }
+  .textarea textarea,
+  .box_information textarea {
+    width: 100%;
+  }
+  .box_information .edit {
+    top: 0px;
+    right: 0px;
+  }
+
+  .padding_res {
+    padding: 0px;
+  }
+  .moblie_profile {
+    display: block;
+  }
+  .user_information .non_res,
+  .non_res {
+    display: none;
+  }
+  .box_information h5,
+  .user_information h5 {
+    margin: 0px;
+    font-size: 20px;
+  }
+  .user_information h6 {
+    font-size: 13px;
+    line-height: normal;
+  }
+  .profile_info {
+    padding: 15px 0px 15px 15px;
+    float: right;
+    border-radius: 50px 0px 0px 50px;
+    width: 90%;
+
+    margin-bottom: 10px;
+  }
+
+  .profile_info figure {
+    float: left;
+    width: auto;
+  }
+  .profile_info figure img {
+    width: 60px;
+    height: 60px;
+  }
+  .user_information {
+    width: 75%;
+    padding: 6px 0px 0px 15px;
+  }
+  .edit {
+    font-size: 0px;
+  }
+  .edit i {
+    font-size: 12px;
+  }
+  .profile_page .empty_cart,
+  .mt50.empty_cart {
+    position: relative;
+    margin-top: 50px;
+  }
+
+  .ReactModal__Content.ReactModal__Content--after-open.accountpage_info {
+    width: 100%;
+  }
+  .information_model {
+    margin: 0px;
+  }
+  .address_grid h4{
+    font-size: 16px;
+  }
+  .address_grid a.btn-normal{
+    font-size: 12px;
+    padding: 8px 12px;
+  }
+  .address_grid a.btn-normal i{
+    font-size: 9px;
+    line-height: 22px;
+  }
+  .address_column p{
+    width: 60%;
+  }
+  .tracking_table_mobile li{
+    width: 100%;
+  }
+}
+
+.error {
+  border-color: #e23c52 !important;
+}
+
+/*============ Media 480Px Star ============ */
+@media (max-width: 480px) {
+  .profile_page {
+    padding-top: 30px;
+  }
+  .tab_orders .tab_content_area {
+    float: left;
+    width: 100%;
+    text-align: center;
+  }
+  .tab_orders .tab_content_area li {
+    float: none;
+    display: inline-block;
+  }
+  .tab_orders .tab_content_area span {
+    padding: 4px 8px 0px;
+    font-size: 12px;
+  }
+  .mobo_res {
+    display: block;
+  }
+  .information_model figure label {
+    width: 150px;
+    height: 150px;
+  }
+  .gender_tab li{
+    margin-right: 7px;
+  }
+  .gender_tab .checkbox_select label{
+    padding:3px 7px;
+  }
+}
+@media (max-width: 360px) {
+  .user_information h6 span{
+    display: none;
+  }
+  .information_model{
+    padding: 50px 30px;
+  }
+}

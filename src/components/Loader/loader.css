@@ -1,0 +1,48 @@
+.pageloader {
+  position: absolute;
+  z-index: 1000000000000;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.hide {
+  display: none;
+}
+.loader_container {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0px;
+  margin: -80px auto;
+  text-align: center;
+  z-index: 1000000000000;
+}
+.loader_container img {
+  width: 8%;
+}
+.loader {
+  position: inherit;
+  top: 50%;
+  left: 0%;
+  text-align: center;
+  margin: 0 auto;
+  right: 0px;
+}
+
+/*============ Media 767Px Start ============ */
+@media (max-width: 767px) {
+  .loader_container img {
+    width: 20%;
+  }
+  .loader_container {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0px;
+    margin: -120px auto;
+    text-align: center;
+  }
+}

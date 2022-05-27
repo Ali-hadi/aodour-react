@@ -1,0 +1,36 @@
+.section_error {
+  width: 100%;
+  text-align: center;
+  display-inline: block;
+}
+
+.svg_pic {
+  margin-bottom: 37px;
+  width: 100%;
+}
+
+.section_error span {
+  color: #e23c52;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.section_error small {
+  color: #e23c52;
+  width: 100%;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 5px 0px 40px 0px;
+}
+
+.btn_1 {
+  background-color: #e23c52;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  border-radius: 0px;
+  width: auto;
+  padding: 10px 30px;
+  text-transform: capitalize;
+}

@@ -1,0 +1,35 @@
+deploy_Dev_Aodour:
+  stage: deploy
+  environment:
+    name: Aodour-Frontend
+    url: https://dev.aodour.pk
+  before_script:
+    - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
+    - mkdir -p ~/.ssh
+    - eval $(ssh-agent -s)
+    - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
+  script:
+    - echo "Deploy to dev server"
+    - ssh-add <(echo "$DEV_PRIVATE_KEY")
+    - rm -rf .git
+    - ssh -o StrictHostKeyChecking=no aodour@54.169.150.222 "cd /var/www/dev/aodour-front; git reset --hard; git pull origin ${BRANCH}; sed -i 's/nodeapi/devnodeapi/g' src/redux/sagas.js; yarn; yarn build; exit"
+  only:
+    - development_branch
+
+deploy_Aodour_API:
+  stage: deploy
+  environment:
+    name: Aodour-Frontend
+    url: https://aodour.pk
+  before_script:
+    - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
+    - mkdir -p ~/.ssh
+    - eval $(ssh-agent -s)
+    - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
+  script:
+    - echo "Deploy to dev server"
+    - ssh-add <(echo "$PRIVATE_KEY")
+    - rm -rf .git
+    - ssh -o StrictHostKeyChecking=no aodour@54.169.150.222 "cd /var/www/live/aodour-front; git reset --hard; git pull origin ${BRANCH}; yarn; yarn build; exit"
+  only:
+    - master

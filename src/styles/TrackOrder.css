@@ -1,0 +1,453 @@
+.banner_relative,
+.track_banner {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+.i-btn{
+  display: inline-block;
+  color:#e23c52;
+  position: relative;
+}
+.i-btn span{
+  display: inline-block;
+  position: relative;
+}
+.i-btn span:before{
+  position: absolute;
+  content:"";
+  bottom: 2px;
+  left:0px;
+  right: 0px;
+  width: 0%;
+  border-bottom: 1px solid #e23c52;
+}
+.i-btn:hover span:before{
+  width: 100%;
+}
+.i-btn i{
+  margin-right: 5px;
+}
+.b-line{
+  border-bottom: 1px solid #ccc;
+}
+.track_banner img {
+  width: 100%;
+}
+.track_banner h1 {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  background-color: #fff;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 33px;
+  padding: 19px 10px 17px 30px;
+  width: 30%;
+  margin: 10px;
+}
+.caption {
+  float: left;
+  width: 100%;
+  padding: 14px 0px;
+}
+.track_order_content p,
+.caption p {
+  margin: 0px;
+  display: inline-block;
+  width: 100%;
+}
+.track_order_content h5 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  display: inline-block;
+  width: 100%;
+}
+.table_style,
+.product_table,
+.order_felid,
+.signal_row ul,
+.signal_row {
+  float: left;
+  width: 100%;
+}
+.signal_row {
+  margin-bottom: 2px;
+  position: relative;
+}
+.signal_row .icon-plus,
+.signal_row .icon-minus {
+  float: right;
+}
+.signal_row tr {
+  margin-bottom: 15px;
+  border-bottom:1px solid #ececec;
+  padding: 15px 0px;
+}
+.signal_row tr th {
+  margin-bottom: 15px;
+}
+.order_felid {
+  margin-bottom: 30px;
+}
+.signal_row:before {
+  position: absolute;
+  content: "";
+  right: 0px;
+  top: 0px;
+  font-family: fontawesome;
+}
+.signal_row th,
+.table_style thead tr th,
+.table_style tbody tr td {
+  font-size: 14px;
+  border: none;
+  font-weight: 300;
+  padding: 8px 0px;
+  line-height: 24px;
+  width: 10%;
+  vertical-align: middle;
+}
+.table_style tfoot tr td{
+  border:none;
+  border-bottom: 1px solid #ececec;
+  padding: 12px 0px ;
+}
+.table_style tfoot tr td:nth-child(5),
+.table_style tfoot tr td:last-child{
+  border-top: 1px solid #ececec;
+}
+.table_style tbody tr td {
+  border-bottom: 2px solid #ececec;
+}
+.table_style tbody tr:last-child td{
+  border-bottom: none;
+} 
+.track_order_content {
+  float: left;
+  width: 100%;
+  margin-bottom: 50px;
+}
+.product_table .collapse-css-transition {
+  float: left;
+  width: 100%;
+}
+.tab_orders .collapse-css-transition .table_style tbody tr td{
+  width: auto;
+}
+.order_felid .text_field,
+.order_felid .selectric {
+  position: relative;
+}
+.order_felid .selectric{
+  width: 100%;
+}
+.order_felid .text_field p,
+.order_felid .selectric p {
+  position: absolute;
+  top: -20px;
+  left: 0px;
+}
+.order_felid .selectric select {
+  border-color: #70767d;
+  font-size: 14px;
+  border-radius: 0px;
+}
+.order_felid .selectric select option {
+  padding: 15px;
+}
+.track_order_content p b {
+  font-weight: normal;
+}
+.track_order_content li,
+.track_order_content ul {
+  float: left;
+  width: 100%;
+}
+.track_order_content li {
+  margin-bottom: 19px;
+}
+
+.track_order_product_image {
+  width: 100px;
+}
+.product_listing ul,
+.product_listing{
+  float: left;
+  width: 100%;
+}
+.product_columnlist,
+.product_listing ul li{
+  float: left;
+  width:100%;
+}
+.product_listing ul li{
+  /* border-bottom: 1px solid #ececec;
+  padding-bottom: 7px;
+  margin-bottom: 7px; */
+  border-bottom: 1px solid #ececec;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    padding-top: 15px;
+}
+.product_columnlist img{
+  float: left;
+  width: 100px;
+}
+.product_caption{
+  padding:35px 0px;
+}
+.product_columnlist span{
+  font-size: 14px;
+ 
+}
+.product_caption span{
+  width: 33.33%;
+  float: left;
+}
+.product_columnlist span:last-child{
+  margin-right: 0px;
+  padding:0px
+}
+.product_caption{
+  width: 90%;
+  float: left;
+}
+.product_columnlist h6{
+  float: left;
+  width: auto;
+}
+.wd100 {
+  padding: 12px 0px 10px;
+  width: 100%;
+}
+.order_felid .text_field input {
+  border-radius: 0px;
+}
+.right_contents {
+  float: right;
+  text-align: right;
+}
+.btn_trackorder,
+.right_contents a {
+  text-transform: capitalize;
+  float: left;
+  width: auto;
+}
+.btn_trackorder img,
+.right_contents a img {
+  float: left;
+  margin-right: 10px;
+  width: 18px;
+  margin: 6px 9px 0px 0px;
+  transform: rotateY(185deg);
+}
+.right_contents span {
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.right_contents > .show,
+.right_contents > .hide {
+  display: block;
+  float: right;
+  margin-left: 15px;
+}
+.right_contents .show .show {
+  display: none;
+}
+.right_contents .show .hide {
+  display: block;
+}
+
+.tracking_table_mobile {
+  float: left;
+  width: 100%;
+  display: none;
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.01);
+  border-bottom: 1px solid #ececec;
+}
+.tracking_table_mobile ul {
+  float: left;
+  width: 50%;
+  margin-bottom: 15px;
+}
+.tracking_table_mobile li {
+  float: left;
+  width: 100%;
+  font-size: 12px;
+  line-height: 19px;
+  text-transform: capitalize;
+}
+.tracking_table_mobile .btn_trackorder img {
+  width: 22px;
+}
+.tracking_table_mobile .btn_trackorder {
+  font-size: 12px;
+  line-height: 20px;
+}
+.tracking_table_mobile .btn-normal {
+  display: inline-block;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+.showing_order{
+  float: right;
+  width: auto;
+  font-size: 12px;
+  text-transform: capitalize;
+}
+.showing_order i{
+  margin-right: 0px;
+}
+.floating_dev{
+  float: left;
+  width: 100%;
+  
+}
+.cms_style.tracking_table_mobile li{
+  line-height: 30px;
+}
+.showing_order.pull-left{
+  float: left;
+  text-align: left;
+}
+/*============	Media Between Start ============ */
+@media (max-width: 1366px) {
+  .signal_row th,
+  .table_style thead tr th,
+  .table_style tbody tr td {
+    width: 10%;
+    padding: 9px 0px;
+  }
+}
+
+/*============	Media 940Px Start ============ */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .tracking_table_mobile {
+    display: block;
+  }
+  .res_none {
+    display: none;
+  }
+  .tracking_table_mobile {
+    width: 33%;
+  }
+}
+
+/*============	Media 979Px Start ============ */
+@media (max-width: 991px) {
+  .tracking_table_mobile {
+    display: block;
+  }
+  .res_none {
+    display: none;
+  }
+  .tracking_table_mobile {
+    width: 33%;
+  }
+}
+/*============	Media 768Px Start ============ */
+@media (min-width: 768px) and (max-width: 990px) {
+}
+
+/*============ Media 767Px Start ============ */
+@media (max-width: 767px) {
+  .track_banner h1 {
+    font-size: 16px;
+    padding: 9px 10px 7px 10px;
+    width: 60%;
+  }
+
+  .track_order_content p,
+  .caption p {
+    font-size: 12px;
+  }
+  .order_felid .text_field,
+  .order_felid .selectric {
+    margin-bottom: 15px;
+  }
+  .order_felid .selectric select,
+  .order_felid .text_field input,
+  .btn-normal.wd100.bg-1 {
+    font-size: 12px;
+  }
+  .order_felid .selectric select {
+    height: 30px;
+    padding: 0px 12px;
+    line-height: normal;
+  }
+  .order_felid .text_field input {
+    height: 30px;
+  }
+  .tracking_table_mobile {
+    width: 50%;
+  }
+  .table_style tbody tr td{
+    width: auto;
+    font-size:12px;
+    line-height: 18px;
+  }
+  .i-btn{
+    display: inline-block;
+    font-size: 12px;
+  }
+  .i-btn i{
+    margin-right: 3px;
+  }
+  .cms_style.tracking_table_mobile{
+    box-shadow: 0px 0px 6px -2px #000;
+    margin: 15px 0px;
+  }
+  .cms_style.tracking_table_mobile ul{
+    margin-bottom: 0px;
+  }
+  .floating_dev{
+    margin-top:20px;
+  }
+  .table_style tfoot tr td{
+    display: none;
+  }
+  .tracking_table_mobile li{
+    width: 100%;
+  }
+  .product_listing ul li{
+    padding-bottom: 7px;
+    margin-bottom: 7px;
+    padding-top: 7px;
+  }
+  .product_caption{
+    float: right;
+    padding:0px 0px 0px 15px;
+    width: 75%;
+  }
+  .product_columnlist img {
+    float: left;
+    width: 70px;
+  }
+  .product_listing ul li{
+    padding:7px 0px ;
+  }
+  .product_listing li span{
+    font-size: 12px;
+  }
+  
+}
+/*============ Media 480Px Star ============ */
+@media (max-width: 480px) {
+  .col-xs-4 {
+    width: 33.333%;
+  }
+  .tracking_table_mobile {
+    width: 100%;
+  }
+  .order_felid .text_field p,
+  .order_felid .selectric p{
+    font-size:12px;  
+  }
+}
+@media (max-width: 380px) {
+}

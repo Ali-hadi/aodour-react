@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg"  focusable="false" height="24" width="24" >
+    <defs>
+        <style>
+          .nui-icon-large-bag-empty-0, .nui-icon-large-bag-empty-1 {
+            fill: none;
+            stroke: #393939;
+            stroke-miterlimit: 10;
+         }
+        .nui-icon-large-bag-empty-1 {
+            stroke-linecap: round;
+            stroke-linejoin: round;
+        }
+
+        </style>
+    </defs>
+    <path class="nui-icon-large-bag-empty-0" d="M23.5 9.5a1 1 0 00-1-1h-21a1 1 0 00-1 1v13a1 1 0 001 1h21a1 1 0 001-1v-13z"></path><path class="nui-icon-large-bag-empty-1" d="M6 8a6 6 0 1112 0"></path>
+</svg>

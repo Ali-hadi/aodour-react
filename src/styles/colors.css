@@ -1,0 +1,352 @@
+/* colors */
+.at_bg {
+  color: #fff;
+}
+.at_bg2 {
+  position: relative;
+  color: #fff;
+}
+.at_bg2:hover:before {
+  opacity: 0.1;
+}
+
+.at_bg2:before {
+  position: absolute;
+  content: "";
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-color: #fff;
+  opacity: 0;
+}
+.at_bg3 {
+  text-transform: capitalize;
+}
+.at_bg3:hover,
+.btns .at_bg3:hover {
+  color: #fff;
+}
+.btns .at_bg3:focus {
+  outline: 1px solid #e23c52 !important;
+}
+.at_bg3:focus,
+.at_bg3:link:active, 
+.at_bg3:visited:active, 
+.at_bg3:visited,
+.at_bg3:link,
+.at_bg3:active{
+  background-color: #e23c52;
+  color: #fff;
+  border-color:#e23c52;
+}
+.border-btn {
+  border: 1px solid #e6e6e6;
+  color: #000;
+  background-color: transparent;
+}
+
+.scroll-bar2::-webkit-scrollbar-thumb,
+.dropcard_items::-moz-scrollbar-thumb,
+.dropcard_items::-webkit-scrollbar-thumb {
+  background: #e23c52;
+}
+/* 
+======================================================
+				Background color red 
+======================================================
+*/
+.at_bg00{
+  background: #e23c52;
+  color: #fff;
+}
+.react-slider__container button,
+.theme-bg,
+.at_bg3:hover,
+.bg2,
+.crud_buttons li a,
+.bg-1,
+.at_bg2,
+.social-icons li:hover a,
+.at_bg,
+.pagination li.page-item.active .page-link,
+.upper_btn:hover,
+.countdown-timer,
+.checkbox input[type="checkbox"] + .label-text:after,
+.column-4x:hover,
+.coming-soon_submit button,
+.SearchDrawer .search_row,
+.SearchDrawer .search-box input,
+.btn-50 span,
+.pagination li.page-item.active .page-link,
+.btn-zoomin,
+.qty-show,
+.navigation-bar ul li:hover a,
+.side-menu .list-menu > li:hover > a,
+.navigation-menu nav ul li ul.submenu li:hover a {
+  background: #e23c52;
+}
+
+.shop_cart li:hover,
+.shop_cart li:hover i,
+.shop_cart li:hover small,
+.i-btn:hover,
+.information_model .text-felid label sup,
+.information_model figure i,
+.widget_log .list li.active a,
+.text-type label,
+.tab_orders li.react-tabs__tab.react-tabs__tab--selected span,
+.widget_cart .dropdown_card .notification_txt,
+.widget_log .list li.active,
+.widget_log .list li:hover,
+.owl-carousel .owl-nav button:hover span,
+.shop_cart.meta li:hover small,
+.clr1,
+.at_bg3,
+.remove,
+.selected > a,
+.side_widgets a:hover,
+.grid-style2 .product-content span.clr1,
+.pwdMask .pwd-toggle:hover,
+.pwdMask .pwd-toggle:focus,
+.pwdMask .pwd-toggle.fa-eye,
+.promo_code_blog h6,
+.widget_cart .qnty_price span b,
+.provided_services ul li:hover a,
+.signout a,
+.product_style2 .product-content span.clr1,
+.drawer-content li:before,
+.sub-menu-plus > span:hover,
+.drawer-content li:hover,
+.side_widgets .widget_links h6:hover,
+.react-tabs__tab.react-tabs__tab--selected:before,
+.social_icons li h6 i,
+.social_icons li h6,
+.product-content > span,
+.tab_btn li:hover span,
+.group_search h5,
+.search-dropmenu h5,
+.search-dropmenu p small,
+.rateing_star ul li:hover i,
+.rateing_star .rating i.check,
+.product_style2 .product-content h6 a:hover,
+.accordian-div li:hover span,
+.dropdown_card .remove,
+.check_colors span.bg1:before,
+.sort_menu li:before,
+.accordian-div li:hover:before,
+.accordian-div li:hover span,
+.list li:hover a,
+.list li:hover a:before,
+.sub-menu-plus > span:hover,
+.drawer-content li:hover,
+.react-tabs__tab-list li:hover,
+.blockqoute_content blockquote p,
+.rounded-column p strong,
+.list-style:hover .list-content h6 a,
+.back-content a:hover,
+.dropdown-menus li:hover > a,
+.dropdown-menus li.active > a,
+.dropdown-menus li ul li:hover a,
+.dropdown-menus li ul li:before,
+.check_hrt label i,
+.check_hrt input[type="checkbox"]:checked ~ label i:before,
+.btn-trans:hover,
+.d-pro,
+.text-felid h5 sup,
+.pro_code span small,
+.nano-content li a:hover,
+.nano-content li.active > a,
+.product-col:hover .product-content h6 a,
+.tabs-center li a:before,
+.listing-links li a i,
+.listing-links li:hover a,
+.btn-linked li:hover a,
+.meta > li > a:hover,
+.wapper .navigation-menu nav .list li:hover a:before,
+.nav-list li a:before,
+.border-btn:hover,
+.search-dropmenu p:hover span,
+.meta li a.clr1,
+.navigation-menu nav ul li .mega-menu ul li:hover a,
+.navigation-menu nav > ul > li:hover > a,
+.top-content p.pull-left i,
+.clr1,
+.perfile_dropdown .dropmenu li:hover a,
+.widget-product .widget-content h6:hover a,
+.right_contents a:hover,
+.type_felids_underline sup,
+.type_felids p sup,
+.felids_resets sup,
+.search-btn:hover i,
+.selected.nthlisting > span,
+.selected.nthlisting > span a,
+.nav_tab ul li:hover {
+  color: #e23c52;
+}
+
+.rating i.un-checked{
+  color: #000 !important;
+}
+
+.min-w-70{
+  min-width: 70px;
+}
+
+div.error input,
+.widget_log .list li.active:before,
+.widget_log .list li:hover:before,
+.owl-carousel .owl-nav button:hover,
+.border-btn:hover,
+.search-btn:hover,
+.brand-col,
+.tab_btn li:hover span:before,
+.tab_btn li.react-tabs__tab.react-tabs__tab--selected span:before,
+.checkbox input[type="checkbox"] + .label-text:after,
+.panel-login .form-control:focus,
+.panel-signup .form-control:focus,
+.panel-forgot .form-control:focus,
+.panel-login .form-control,
+.panel-signup .form-control,
+.panel-forgot .form-control,
+.search-form input:focus,
+.product-slider .carousel .thumb.selected,
+.product-slider .carousel .thumb:hover,
+.page-item.active .page-link,
+.pro_code span small,
+.column-list:hover,
+body .react-slider__ul li.active img,
+.listing-links li a:before {
+  border-color: #e23c52;
+}
+
+.at_bg3 {
+  outline: 1px solid #e23c52;
+  outline-offset: 0px;
+}
+
+.product-col:hover {
+  box-shadow: 0px 1px 11px -1px rgba(255, 39, 65, 0.4);
+}
+/* 
+======================================================
+				Background color black 
+======================================================
+*/
+
+.scroll-bar::-webkit-scrollbar-thumb,
+.accordian-div .input-range__track--active,
+.accordian-div .input-range__slider,
+.no-touch .dl-menuwrapper li a:hover,
+.product-col figure:before,
+.header-row3,
+.bg-2 {
+  background-color: #212529;
+}
+.react-tabs__tab.react-tabs__tab--selected,
+.react-tabs__tab-list li {
+  color: #212529;
+}
+.checkbox input[type="radio"]:checked + label span,
+.accordian-div .input-range__slider,
+.check_colors input[type="checkbox"]:checked ~ label span.bg1 {
+  border-color: #212529;
+}
+
+.border-btn,
+.social-icons li,
+.social-icons li a,
+.at_bg,
+.search-dropmenu p span,
+.owl-nav,
+.col-content .item img,
+.col-content .item,
+.product_style2:before,
+.product_style2 figure,
+.react-tabs__tab-list li:before,
+.sort_menu li:before,
+.sort_menu li,
+.btn-50 span,
+.accordian-div li span,
+.accordian-div li:before,
+.accordian-div ul li,
+.rc-menu-submenu.rc-menu-submenu-inline .rc-menu.rc-menu-sub.rc-menu-inline,
+.rc-menu-submenu.rc-menu-submenu-inline.rc-menu-submenu-open,
+.collapse,
+.list-style,
+.list-style .list-content h6 a,
+.back-content a,
+.dropdown-menus li a,
+.dropdown-menus li ul li a,
+.dropdown-menus li ul li:before,
+.btn-trans,
+.colors_col li img,
+.arrow-rtl,
+.react-tabs__tab-list li,
+.dl-menuwrapper button,
+.no-touch .dl-menuwrapper li a,
+.product-col figure img,
+.product-col .product-content h6 a,
+.product-col figure:before,
+.tabs-center li a,
+.tabs-center li a:before,
+.column-list,
+.listing-links li a:before,
+.listing-links li a,
+.btn-linked li a,
+.meta li a,
+.tab-mega,
+.accordian-div li span,
+.list li a:before,
+.list-menu li .children,
+.column4x ul li a,
+.dropdowncart,
+.rateing_star ul li,
+.rateing_star ul li i,
+.tab_btn li span:before,
+.grid-column img,
+.widget-product .widget-content h6,
+.product_style2 .product-content h6 a,
+.top_seller_column a img,
+.navigation-menu nav ul li a,
+.navigation-menu nav ul li a:before,
+.bg-1,
+.at_bg3,
+.border-btn,
+.wiget-link li a,
+.search-btn,
+.upper_btn,
+.i-btn span:before,
+.i-btn,
+.shop_cart li,
+.shop_cart li small,
+.shop_cart li i,
+.btn-normal4::before,
+.list-column.side-list ul li h6,
+.list-column.side-list ul li,
+.information_model figure label span,
+.widget_log .list li:before,
+.widget_log .list li,
+.at_bgbk:before,
+.nav_tab ul li {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.type_felids_underline input,
+.right_contents a,
+.nav-list li a:before,
+.navigation-bar ul li a,
+.navigation-menu nav ul li ul,
+.navigation-menu nav ul li:before,
+.navigation-menu nav ul li a,
+.navigation-menu nav ul li .mega-menu,
+.navigation-menu .list-menu li .mega-menu-listing {
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}

@@ -1,0 +1,187 @@
+.aor_coming_soon{
+	float: left;
+	width:100%;
+}
+.aor_coming_soon{
+	background-image: url(/assets/images/bg1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+	text-align: center;
+	position: fixed;
+	z-index: 1;
+	padding: 20px 0px;
+	background-attachment: fixed;
+}
+.aor_coming_soon:before{
+	position: absolute;
+	content:"";
+	top:0px;
+	left:0px;
+	right: 0px;
+	bottom:0px;
+	background-color: #000;
+	opacity: 0.75;
+	z-index: -1;
+}
+.aor_logo{
+	float: left;
+	width:100%;
+	margin-bottom: 47px;
+}
+.aor_coming_soon_detail h6{
+	
+	text-transform: capitalize;
+	color:#fff;
+	margin-bottom: 28px;
+}
+.aor_coming_soon_detail h1{
+	font-size: 50px;
+	
+	text-transform: uppercase;
+	color:#fff;
+	margin-bottom: 25px;
+}
+.coming-soon-radio{
+	float: left;
+	width:100%;
+	padding: 21px 0px 50px;
+}
+.coming-soon-radio li{
+	margin-right: 26px;
+	float: none;
+	display: inline-block;
+}
+.round-cercles{
+	display: inline-block;
+	height: 131px;
+	width: 131px;
+	border:1px solid #fff;
+	border-radius: 10%;
+	padding-top: 29px;
+	background: rgba(255,255,255,0.1);
+}
+.coming-soon-radio li:last-child{
+	margin-right: 0px;
+}
+.countdown .round-cercles span:before{
+	display: none;
+}
+.round-cercles span{
+	font-size: 48px;
+	
+	color: #fff;
+	display: inline-block;
+	text-transform: uppercase;
+	margin-bottom: 9px;
+	line-height: 40px;
+	margin-right: 0px;
+}
+.round-cercles p{
+	color: #fff;
+	text-transform: uppercase;
+}
+.aor_logo a{
+	display: inline-block;
+	width: 200px;
+}
+.coming-soon_submit{
+	display: inline-block;
+	width: 582px;
+	position: relative;
+}
+.coming-soon_submit input{
+	width:100%;
+	height: 55px;
+	border:none;
+	border-radius: 5px;
+	color: #fff;
+	padding-left: 20px;
+	background: rgba(255,255,255,0.1);
+	border:1px solid #fff;
+}
+.coming-soon_submit input[type="text"]::-moz-input-placeholder{
+	color: #fff;
+}
+.coming-soon_submit input[type="text"]::-webkit-input-placeholder{
+	color: #fff;
+}
+.coming-soon_submit input[type="text"]:-moz-input-placeholder{
+	color:#fff;
+}
+.coming-soon_submit input[type="text"]::-os-input-placeholder{
+	color: #fff;
+}
+.coming-soon_submit button{
+	position: absolute;
+	top:4px;
+	right: 4px;
+	width:111px;
+	height: 47px;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 14px;
+	line-height: 47px;
+	text-align: center;
+	border-radius: 5px;
+}
+/*
+=============================================
+	aor comming soon ends
+=============================================
+*/
+@media screen and (min-width: 1367px) and (max-width: 1680px) {
+	
+
+}
+
+/*============	Media Between Start ============ */
+@media screen and (min-width: 1199px) and (max-width: 1366px)  {	
+
+
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {	}
+
+
+/*============	Media 991Px Start ============ */ 
+
+@media (max-width: 991px) {	
+
+}
+
+/*============	Media 768Px Start ============ */ 
+@media (min-width: 768px) and (max-width: 991px) {
+	
+}
+
+/*============ Media 767Px Start ============ */
+@media (max-width: 767px) {
+	.aor_coming_soon_detail{
+		float: left;
+		width: 100%;
+	}
+	.aor_coming_soon{
+		position: relative;
+		padding: 160px 0px 30px;
+	}
+	.aor_coming_soon_detail h1{
+		font-size: 30px;
+	}
+	.coming-soon-radio li{
+		width: 33%;
+		margin: 0px 8px 15px;
+	}
+	.coming-soon-radio li .round-cercles{
+		width: 100%;
+	}
+	.aor_coming_soon_detail form{
+		float: left;
+		width: 100%;
+	}
+	.aor_coming_soon_detail form .coming-soon_submit{
+		width: 100%;
+	}
+	.coming-soon_submit input{
+		padding-right: 130px;
+	}
+}

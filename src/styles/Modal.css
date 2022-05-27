@@ -1,0 +1,162 @@
+.ReactModal__Overlay {
+  opacity: 0;
+  /* transform: translateY(-100px);
+  transition: all 500ms ease-in-out; */
+  /* z-index: 1; */
+  /* overflow-y: scroll; */
+}
+.ReactModal__Html--open,
+.ReactModal__Body--open {
+  overflow: hidden !important; /* prevents background page from scrolling when the modal is open */
+}
+.ReactModal__Overlay--after-open {
+  opacity: 1;
+  /* transform: translateY(0px); */
+  background-color: rgba(255,255,255,0.95) !important;
+}
+
+.ReactModal__Overlay--before-close {
+  opacity: 0;
+  /* transform: translateY(-100px); */
+}
+
+.ReactModal__Overlay {
+  z-index: 10000;
+  overflow-y: scroll;
+}
+.ReactModal__Content.ReactModal__Content--after-open{
+  overflow: visible;
+  top:0px ;
+  left: 0px ;
+  right: 0px ;
+  bottom: 0px ;
+  opacity: 1;
+}
+.ReactModal__Content{
+  position: absolute;
+  top: 0% !important;
+  border: 1px solid rgb(204, 204, 204) !important;
+  background: rgb(255, 255, 255);
+  border-radius: 4px;
+  overflow: visible;
+  margin: 0 auto;
+  width: 98%;
+  outline: none;
+  padding: 0px !important;
+}
+
+.ReactModal__Content.image_popup{
+  width: 500px;
+  bottom: auto !important;
+  top: 10% !important;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+  border:none !important;
+}
+.image_popup .cross-btn{
+  top: -30px;
+  right: -20px;
+  width: auto;
+}
+.ReactModal__Content.image_popup iframe{
+  width: 100%;
+  min-height: 400px;
+  max-height: 400px;
+}
+.button-center{
+  text-align: center;
+  float: left;
+  width: 100%;
+  padding: 0px 30px 30px;
+}
+.button-center button{
+  width: 40%;
+  float: none;
+}
+
+
+.sharing_box{
+  float: left;
+  width: 100%;
+}
+.sharing_box h5{
+  float: left;
+  width: auto;
+  text-transform: uppercase;
+  color: #240202;
+}
+.heading_boxx{
+  float: left;
+  width: 100%;
+  background-color: #fafafa;
+  border-bottom: 1px solid #ededed;
+  padding: 12px 15px;
+}
+.sharing_box .cross-btn{
+  top:4px;
+  right: 0px;
+  opacity: 1;
+  color:#240202;
+  position: relative;
+}
+.sharing_box button{
+  float: right;
+  width: auto;
+  line-height: normal;
+}
+.sharing_box button:hover{
+  background-color: #fafafa;
+}
+.post_urls{
+  float: left;
+  width: 100%;
+  padding: 15px 20px;
+  text-align: left;
+}
+.post_urls figure{
+  float: left;
+  width: 33.333%;
+}
+.discription_box{
+  float: left;
+  width: 66.666%;
+  text-align: left;
+  padding: 0px 15px;
+  line-height: normal;
+}
+.discription_box h6{
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin-bottom: 3px;
+
+}
+.discription_box p{
+  line-height: 22px;
+}
+.get_urls{
+  float: left;
+  width: 100%;
+  position: relative;
+}
+.get_urls input{
+  width: 100%;
+  background-color: #fafafa;
+  border-color: #ededed;
+  padding: 0px 80px 0px 15px;
+}
+.get_urls button{
+  position: absolute;
+  right: 0px;
+  top: 0%;
+  visibility: visible !important;
+  bottom: 0px;
+  color: #065fd4;
+  margin: 0px;
+  font-size: 16px;
+  text-transform: capitalize;
+  margin: 0 auto;
+  z-index: 9999;
+  padding: 0px 15px;
+  text-align: right;
+  border-right: 1px solid #ededed;
+}

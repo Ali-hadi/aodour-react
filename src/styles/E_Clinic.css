@@ -1,0 +1,502 @@
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+.bg-gary,
+.aodour_banner{
+	float: left;
+	width: 100%;
+}
+.bg-gary{
+	background: #f1f2f2;
+}
+.slide{
+	float: left;
+	width: 100%;
+	position: relative;
+}
+.slide img{
+	width: 100%;
+}
+
+.banner-contents{
+	float: left;
+	width: 60%;
+}
+.banner-contents{
+	position: absolute;
+	left: 50px;
+	top: 50%;
+	margin-top: -168px;
+}
+.banner-contents h4{
+	color: #fff;
+	margin-bottom: 0px;
+	display: inline-block;
+	text-transform: uppercase;
+	
+	border-top: 1px solid #fff; 
+}
+.banner-contents h4:first-child{
+	border-top: none;
+}
+.banner-contents h2{
+	color: #fff;
+	text-transform: uppercase;
+	
+	display: inline-block;
+	width: 100%;
+	font-size: 70px;
+	margin-top: 27px;
+	margin-bottom: 10px;
+}
+.banner-contents span{
+	color: #fff;
+	text-transform: uppercase;
+	display: inline-block;
+	width: 100%;
+	
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+.banner-contents p{
+	display: inline-block;
+	margin-bottom: 35px;
+	width: 100%;
+	color: #fff;
+	
+	text-transform: capitalize;
+	font-size: 16px;
+}
+.btn-normal-arrow{
+	display: inline-block;
+	background: #fff;
+	text-transform: uppercase;
+	
+	font-size: 20px;
+	padding: 16px 80px 16px 29px;
+	position:relative;
+}
+.btn-normal-arrow i{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	width: 50px;
+	text-align: center;
+	line-height: 54px;
+	font-size: 18px;
+	color: #fff;
+	background: #614436;
+}
+
+.services_table{
+	display: flex;
+	width: 100%;
+}
+.column-4x{
+	padding: 50px 30px 40px 30px;
+	background: #ececec;
+	flex: 1;
+	width: 33.3333%;
+	vertical-align: middle;
+}
+.column-4x:hover p,
+.column-4x:hover h6,
+.column-4x:hover span{
+	color: #fff;
+}
+.column-4x span{
+	float: left;
+	width: 80px;
+	padding: 0px 0px 0px;
+	font-size: 60px;
+	line-height: 45px;
+	margin-right: 20px;
+	color: #000;
+	text-transform: capitalize;
+}
+.service_caps{
+	float: left;
+	width: 80%;
+}
+.service_caps h6{
+	display: inline-block;
+	margin-bottom: 0px;
+	width: 100%;
+	text-transform: uppercase;
+	color: #000;
+}
+.service_caps p{
+	display: inline-block;
+	width: 100%;
+}
+
+
+.doctor-pix{
+	float: left;
+	width: 40%;
+}
+.bg-gary .container{
+	position: relative;
+	overflow: hidden;
+}
+.doctor-pix{
+	float: left;
+	width: 40%;
+}
+/*.doctor-pix{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	bottom: 0px;
+	width: 40%;
+	height: 100vh;
+}*/
+/*.doctor-pix div{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+	height: 100%;
+	width: 100%;
+	background-size: 21%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 30% bottom;
+}*/
+.doctor-details{
+	float: right;
+	width: 60%;
+	text-align: left;
+	padding: 64px 0px;
+}
+.doctor-details h4{
+	text-transform: capitalize;
+	width: 100%;
+	
+}
+.doctor-details h3{
+	
+	text-transform: uppercase;
+	margin-bottom:15px;
+}
+.doctor-details span{
+	display: inline-block;
+	width: 100%;
+	font-size: 18px;
+	margin-bottom: 9px;
+	text-transform: uppercase;
+}
+.doctor-details span b{
+	text-transform: capitalize;
+	display: inline-block;
+	
+} 
+.doctor-details span small{
+	width: 100%;
+	display: inline-block;
+	text-transform: capitalize;
+} 
+.doctor-details p{
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}  
+.edit-form form,
+.edit-form{
+	float: left;
+	width: 100%;
+}
+.edit-form form{
+
+}
+.text-felid{
+
+}
+.titie_widget h1,
+.titie_widget{
+	display: inline-block;
+	text-transform: capitalize;
+	margin-bottom: 15px;
+}
+.textarea-box,
+.input-feild{
+	margin-bottom: 30px;
+}
+.input-feild input{
+	height: 50px;
+}
+.textarea-box textarea{
+	float: left;
+	height: 200px;
+	resize:none;
+	
+}
+.input-feild input,
+.textarea-box textarea{
+	border-radius: 5px;
+	width: 100%;
+	text-transform: capitalize;
+	border:2px solid #ccc;
+}
+.input-feild input::-moz-placeholder,
+.textarea-box textarea::-moz-placeholder{
+	color: #333;
+}
+.input-feild input::-os-placeholder,
+.textarea-box textarea::-os-placeholder{
+	color: #333;
+}
+.input-feild input::-webkit-placeholder,
+.textarea-box textarea::-webkit-placeholder{
+		color: #333;
+}
+.mb0{
+	margin-bottom: 0px;
+}
+.edit-form{
+	margin-bottom: 30px;
+}
+.btn-small{
+	display: inline-block;
+	margin: 15px 0px;
+}
+.btn-submit{
+	float: right;
+	width: 100%;
+	text-align: right;
+}
+.date-filter{
+	float: left;
+	width: 100%;
+	padding: 30px 30px;
+	box-shadow: 0px 0px 11px -4px rgba(0,0,0,0.2);
+}
+.date-filter h6{
+	margin-bottom: 20px;
+}
+.date-time{
+	float: left;
+	width: 100%;
+	margin-bottom: 30px;
+}
+.date-time a{
+	display: inline-block;
+	padding: 12px 20px;
+	text-align: center;
+	text-transform: uppercase;
+	box-shadow: 0px 0px 4px 0px
+	rgba(0,0,0,0.1);
+	margin: 3px 5px;
+	width: 22.333%;
+}
+.btn-100,
+.btn-80{
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+.btn-80 a{
+	width: 60%;
+	font-size: 16px;
+	
+	border-radius: 5px;
+	padding: 15px 0px;
+}
+.btn-80 a:hover{
+	border-color: #fff;
+}
+.btn-100 a{
+	width: 100%;
+	font-size: 18px;
+	float: left;
+}
+.mb30{
+	margin-bottom: 30px;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 30px;
+	float: none;
+	display: inline-block;
+	width: 80%;
+}
+/*============	Media Between Start ============ */
+@media (max-width: 1366px){
+	
+}
+
+/*============	Media 940Px Start ============ */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+	.column-4x span{
+		margin: 0px 0px 20px;
+	}
+	.doctor-details{
+		padding: 40px 0px;
+	}
+	.doctor-details,
+	.doctor-pix{
+		width: 50%;
+	}
+	.date-time a{
+		padding: 12px 10px;
+		width: 21.333%;
+	}
+
+}
+/*============	Media 979Px Start ============ */
+@media (max-width: 991px) {
+	.column-4x span{
+		margin: 0px 0px 20px;
+	}
+	.doctor-details{
+		padding: 40px 0px;
+	}
+	.doctor-details{
+		width: 46%;
+	}
+	.doctor-pix{
+		width: 54%;
+	}
+	.date-time a{
+		padding: 12px 8px;
+		width: 21.333%;
+	}
+	.custom-responsive{
+		max-width: 930px;
+	}
+}
+
+/*============	Media 768Px Start ============ */ 
+@media (min-width: 768px) and (max-width: 990px) {
+	.banner-contents h2{
+		margin-top: 0px;
+		line-height: 70px;
+
+	}
+	.banner-contents{
+		margin-top: -148px;
+	}
+	.services_table{
+		float: left;
+		width: 100%;
+		display: inline-block;
+	}
+	.services_table .column-4x{
+		width: 49%;
+		margin: 0px;
+		display: inline-flex;
+	}
+	.doctor-pix{
+		width: 34%;
+	}
+	.doctor-details{
+		width: 65%;
+	}
+	.date-time a{
+		width: 28.333%;
+	}
+}
+
+/*============ Media 767Px Start ============ */
+@media (max-width: 767px) {
+	.banner-contents {
+	    margin-top: -98px;
+	    width: 100%;
+	    left: 20px;
+	}
+	.banner-contents h2{
+		font-size: 24px;
+		line-height: 24px;
+		margin: 0px;
+	}
+	.banner-contents span{
+		margin: 0px;
+		font-size: 18px;
+	}
+	.banner-contents p{
+		font-size: 14px;
+		margin: 0px;
+	}
+	.btn-normal-arrow{
+		padding: 9px 70px 6px 20px;
+		font-size: 12px;
+	}
+	.btn-normal-arrow i{
+		line-height: 37px;
+		font-size: 14px;
+	}
+	
+	.services_table{
+		float: left;
+		width: 100%;
+		display: inline-block;
+	}
+	.services_table .column-4x{
+		width: 100%;
+		margin: 0px;
+		display: inline-flex;
+	}
+	.doctor-pix{
+		width: 34%;
+	}
+	.doctor-details{
+		width: 65%;
+	}
+	.date-time a {
+	    width: 32%;
+	    margin: 0px 0px;
+	}
+	
+	.btn-80 a{
+		width: 80%;
+	}
+}
+/*============ Media 480Px Star ============ */
+@media (max-width: 480px) {
+	.banner-contents h4{
+		margin: 0px;
+	}
+	.btn-normal-arrow,
+	.banner-contents span,
+	.banner-contents p,
+	.banner-contents h2{
+		display: none;
+	}
+	.banner-contents{
+		margin-top: -36px;
+	}
+	.services_table .column-4x{
+		width: 100%;
+	}
+	.doctor-details h3{
+		font-size: 24px;
+		margin-bottom: 5px;
+	}
+	.doctor-pix{
+		margin: 155px 0px;
+	}
+
+}
+@media (max-width: 380px) {
+	.btn-normal-arrow,
+	.banner-contents span,
+	.banner-contents p,
+	.banner-contents h2{
+		display: none;
+	}
+	.banner-contents{
+		margin-top: -36px;
+	}
+	.doctor-pix {
+	    margin: 0px 0px;
+	    position: absolute;
+	    opacity: 0.4;
+	    z-index: 0;
+	    width: 100%;
+	}
+	.doctor-details{
+		width: 100%;
+		position: relative;
+	}
+}
